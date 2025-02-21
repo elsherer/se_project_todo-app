@@ -1,6 +1,6 @@
 import Popup from "./Popup.js";
 
-class popupWithForm extends Popup {
+class PopupWithForm extends Popup {
   constructor({ popupSelector, handleFormSubmit }) {
     super({ popupSelector });
     this._popupForm = this._popupElement.querySelector(".popup__form");
@@ -30,4 +30,4 @@ class popupWithForm extends Popup {
     });
   }
 }
-export default popupWithForm;
+export default PopupWithForm;
